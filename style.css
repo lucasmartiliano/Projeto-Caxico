@@ -3,8 +3,9 @@
 }
 main{
     font-family: sans-serif;
-    background-color:#AE49D5 ;
+    background-color:#ffffff ;
     width: 400px;
+    border-radius: 30px;
 }
 h1, h2, p {
     padding-left: 15px;
