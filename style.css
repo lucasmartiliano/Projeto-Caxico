@@ -1,0 +1,24 @@
+#painel {
+    width: 500px;
+}
+main{
+    background-color:#AE49D5 ;
+    width: 500px;
+}
+h1, h2, p {
+    padding-left: 15px;
+}
+body {
+    background-color: #7719AB;
+}
+button {
+    margin: center;
+}
+#finalizar {
+    margin: 10px;
+    font-size: 20px;
+}
+#limpar {
+    margin: 10px;
+    font-size: 20px;
+}
