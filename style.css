@@ -27,7 +27,7 @@ button {
     margin: 10px;
     font-size: 20px;
 }
-input {
+p > input {
     height: 20px;
     width: 20px;
 }
