@@ -98,7 +98,7 @@
             const extras = `\nExtras escolhidos: ${selectedExtras.join(', ')}`;
 
             // Substitua pelo número do WhatsApp desejado
-            const phoneNumber = '5582981377291'; 
+            const phoneNumber = '5582988472733'; 
 
             // Crie o texto da mensagem
             const text = `Olá, meu nome é ${encodeURIComponent(name)}. ${encodeURIComponent(tamanho)}. \n${encodeURIComponent(cobertura)}. ${encodeURIComponent(frutas)}. ${encodeURIComponent(adicionais)}. ${encodeURIComponent(cremes)}. ${encodeURIComponent(extras)}`;
