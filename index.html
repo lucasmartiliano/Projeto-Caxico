@@ -15,7 +15,7 @@
         <p>Tamanho G: 2 coberturas, 2 frutas, 3 adicionais e 1 creme.</p>
         <form class="whatsappForm">
             <label for="name">Nome:</label>
-            <input type="text" class="name" placeholder="Digite seu nome" required>
+            <input id="nomeinp" type="text" class="name" placeholder="Digite seu nome" required>
            <h2>Tamanhos:</h2>
             <p><input class="tamanho" type="radio" name="tamanho" value="P"> P 300ml R$ 10,00</p> 
             <p><input class="tamanho" type="radio" name="tamanho" value="M"> M 400ml R$ 13,00</p> 
@@ -28,31 +28,32 @@
             <p><input class="cobertura" type="checkbox" name="cobertura" value="chocolate">Chocolate</p>
             <p><input class="cobertura" type="checkbox" name="cobertura" value="leite condensado">Leite condensado</p>
            <h2>Frutas:</h2>
-            <p><input type="checkbox" name="frutas[]" value="kiwi">Kiwi</p>
-            <p><input type="checkbox" name="frutas[]" value="banana">Banana</p>
-            <p><input type="checkbox" name="frutas[]" value="morango">Morango</p>
+            <p><input class="frutas" type="checkbox" name="frutas" value="kiwi">Kiwi</p>
+            <p><input class="frutas" type="checkbox" name="frutas" value="banana">Banana</p>
+            <p><input class="frutas" type="checkbox" name="frutas" value="morango">Morango</p>
             <h2>Adicionais:</h2>
-            <p><input type="checkbox" name="adicionais[]" value="mm">MM's</p>
-            <p><input type="checkbox" name="adicionais[]" value="leite">Leite</p>
-            <p><input type="checkbox" name="adicionais[]" value="neston">Neston</p>
-            <p><input type="checkbox" name="adicionais[]" value="pacoça">Paçoca</p>
-            <p><input type="checkbox" name="adicionais[]" value="sucrilhos">Sucrilhos</p>
-            <p><input type="checkbox" name="adicionais[]" value="granola">Granola</p>
-            <p><input type="checkbox" name="adicionais[]" value="castanha">Castanha</p>
-            <p><input type="checkbox" name="adicionais[]" value="amendoim">Amendoim</p>
-            <p><input type="checkbox" name="adicionais[]" value="farinha lactea">Farinha Láctea</p>
-            <p><input type="checkbox" name="adicionais[]" value="jujuba">Jujuba</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="mm">MM's</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="leite">Leite</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="neston">Neston</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="pacoça">Paçoca</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="sucrilhos">Sucrilhos</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="granola">Granola</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="castanha">Castanha</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="amendoim">Amendoim</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="farinha lactea">Farinha Láctea</p>
+            <p><input class="adicionais" type="checkbox" name="adicionais" value="jujuba">Jujuba</p>
            <h2>Cremes:</h2>
-            <p><input type="checkbox" name="cremes" value="ninho">Ninho</p>
-            <p><input type="checkbox" name="cremes" value="pacoça">Paçoca</p>
-            <p><input type="checkbox" name="cremes" value="tapioca">Tapioca</p>
-            <p><input type="checkbox" name="cremes" value="cupuaçu">Cupuaçu</p>
-            <p><input type="checkbox" name="cremes" value="morango">Morango</p>
-            <p><input type="checkbox" name="cremes" value="ninho com nutella">Ninho com Nutella</p>
+            <p><input class="cremes" type="checkbox" name="cremes" value="ninho">Ninho</p>
+            <p><input class="cremes" type="checkbox" name="cremes" value="pacoça">Paçoca</p>
+            <p><input class="cremes" type="checkbox" name="cremes" value="tapioca">Tapioca</p>
+            <p><input class="cremes" type="checkbox" name="cremes" value="cupuaçu">Cupuaçu</p>
+            <p><input class="cremes" type="checkbox" name="cremes" value="morango">Morango</p>
+            <p><input class="cremes" type="checkbox" name="cremes" value="ninho com nutella">Ninho com Nutella</p>
             <h2>Extras:</h2>
-            <p><input type="checkbox" name="extras" value="batom">Batom</p>
-            <p><input type="checkbox" name="extras" value="chocoball">Chocoball</p>
-            <p><input type="checkbox" name="extras" value="ovomaltine">Ovomaltine</p>
+            <p><input class="extras" type="checkbox" name="extras" value="batom">Batom</p>
+            <p><input class="extras" type="checkbox" name="extras" value="chocoball">Chocoball</p>
+            <p><input class="extras" type="checkbox" name="extras" value="ovomaltine">Ovomaltine</p>
+            <p><input class="extras" type="checkbox" name="extras" value="semExtra">Sem Extra</p>
            <br>
            <button id="finalizar" type="submit">Finalizar pedido</button>
            <br>

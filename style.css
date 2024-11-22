@@ -7,10 +7,10 @@ main{
     width: 400px;
     border-radius: 30px;
 }
-h1, h2, p {
+h1, h2, p, label {
     padding-left: 15px;
 }
-p {
+p, label {
     font-size: 20px;
 }
 body {
@@ -30,4 +30,8 @@ button {
 p > input {
     height: 20px;
     width: 20px;
+}
+#nomeinp {
+    width: 150px;
+    height: 30px;
 }
